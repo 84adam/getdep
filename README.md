@@ -12,7 +12,7 @@ Allows for installation of `$TARGET` package and all dependencies without networ
 
 - `$ git clone https://github.com/84adam/getdep.git`
 - From the `getdep/` directory, make `getdep.sh` executable: `$ chmod +x getdep.sh`
-- `Then run it: `$ ./getdep.sh`
+- Then run it: `$ ./getdep.sh`
 
 NOTE: The final two scripts you need on the target machine are copied into the directory and tarred up together. This allows you to be able to copy only 1 file via USB or other media to the target machine.
 
