@@ -10,7 +10,7 @@ Allows for installation of `$TARGET` package and all dependencies without networ
 
 **INSTRUCTIONS TO 'GETDEP' FROM A NETWORKED MACHINE:**
 
-- `$ git clone <...>`
+- `$ git clone https://github.com/84adam/getdep.git`
 - From the `getdep/` directory, make `getdep.sh` executable: `$ chmod +x getdep.sh`
 - `Then run it: `$ ./getdep.sh`
 
