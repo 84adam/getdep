@@ -1,7 +1,6 @@
 #!/bin/bash 
 
-DIRS="DEB_FILES"
-DEBS="$(ls /$DIRS/ | grep .deb)"
+DEBS="$(ls | grep .deb)"
 
 for i in $DEBS; do sudo dpkg -i $i; done
 
